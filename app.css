@@ -51,11 +51,12 @@ h3{
     justify-content: center;
     align-items: center;
     max-width: 80rem;
-    margin: 0 auto;
+    margin: 0 auto; /*0 tells that top and bottom margins will be 0, auto tells that left and right margins will be equal*/
     padding: 2rem;
 }
 
 .container>*{
+    /*applies to all childs of the container*/
     width: 100%;
 }
 
