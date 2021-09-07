@@ -5,7 +5,9 @@
 }
 /*asterisk is universal selector used to select any and all types of elements in an HTML page. The asterisk can also be followed by a selector while using to select a child object.*/
 *{
-    box-sizing: border-box;/*border will be adjusted within the box, if the border stretches out of the box then content will automatically shrink according to the border */
+    box-sizing: border-box;/*border will be adjusted within the box, if the border stretches out of the box then content will automatically shrink according to the border
+    eg:if I want box size of 40X40 px and want to add border of 10 pixel then box size will get 50x50 instead of 40x40 ....but border box will adjust the size of border 
+    accordingly */
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
